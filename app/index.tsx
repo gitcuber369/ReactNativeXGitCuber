@@ -58,7 +58,7 @@ const Index = () => {
         title="Button Component"
         color={selectedColor}
         onPress={() => {
-          
+          router.navigate("/animated-feb");
         }}
         Icons={<IconChevronRightPipe color="#fff" />}
       />
